@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">traveLog</string>
+    <string name="add">Add</string>
+    <string name="no">No</string>
+    <string name="judul">Destination List</string>
+    <string name="dialog1">Add to destination list ?</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="widget_id_label">traveLog</string>
+    <string name="widget_update_label">Last updated</string>
+    <string name="widget_button_label">Update now</string>
+    <string name="widget_button_update">Check Date</string>
+    <string name="success">Success</string>
+    <string name="map">Map</string>
+    <string name="destination">Destination</string>
+    <string name="Dashboard">Dashboard</string>
+    <string name="search">Search...</string>
+    <string name="travelog">traveLog Dashboard</string>
+    <string name="numdes">number of destinations</string>
+    <string name="hi">Hi, Traveller! :)</string>
+    <string name="humidity">Humidity :</string>
+    <string name="temp">Temperature :</string>
+    <string name="yes">Yes</string>
+    <string name="mark">Mark the destination ?</string>
+    <string name="Language">Language</string>
+    <string name="widget_button_temp">Check Temp</string>
+</resources>

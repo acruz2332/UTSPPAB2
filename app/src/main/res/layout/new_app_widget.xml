@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.UTSPPAB2.AppWidget.Containers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.UTSPPAB2.AppWidgetContainer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/section_id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        style="@style/AppWidgetLabel">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/appwidget_id_label"
+            style="@style/AppWidgetLabel"
+            android:text="@string/widget_id_label"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/section_update"
+        style="@style/AppWidgetSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_id"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/appwidget_count"
+            style="@style/AppWidgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/appwidget_update"
+            style="@style/AppWidgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_update"
+        style="@style/AppWidgetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_update"
+        android:layout_centerHorizontal="true"
+        android:text="@string/widget_button_update" />
+
+    <LinearLayout
+        android:id="@+id/section_temp"
+        style="@style/AppWidgetSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_update"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title_temp"
+            style="@style/AppWidgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temp"/>
+
+        <TextView
+            android:id="@+id/value_temp"
+            style="@style/AppWidgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25 C"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_temp"
+        style="@style/AppWidgetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_temp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/widget_button_temp" />
+
+</RelativeLayout>

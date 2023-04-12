@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">traveLog</string>
+    <string name="add">Tambah</string>
+    <string name="no">Tidak</string>
+    <string name="judul">Daftar Tujuan</string>
+    <string name="dialog1">Tambah ke daftar tujuan ?</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="app_widget_description">Ini adalah deskripsi widget aplikasi</string>
+    <string name="widget_id_label">traveLogt</string>
+    <string name="widget_update_label">Terakhir diperbarui</string>
+    <string name="widget_button_label">Perbarui sekarang</string>
+    <string name="widget_button_update">Cek Tanggal</string>
+    <string name="success">Berhasil</string>
+    <string name="map">Peta</string>
+    <string name="destination">Tujuan</string>
+    <string name="Dashboard">Dasbor</string>
+    <string name="search">Cari...</string>
+    <string name="travelog">Dasbor traveLog</string>
+    <string name="numdes">jumlah tujuan</string>
+    <string name="hi">Halo, Traveller! :)</string>
+    <string name="humidity">Kelembapan :</string>
+    <string name="temp">Suhu :</string>
+    <string name="yes">Ya</string>
+    <string name="mark">Tandai tujuan ?</string>
+    <string name="Language">Bahasa</string>
+    <string name="widget_button_temp">Cek Suhu</string>
+</resources>

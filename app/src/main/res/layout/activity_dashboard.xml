@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboardActivity">
+    
+    <TextView
+        android:id="@+id/dashboardjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/travelog"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hi"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@id/dashboardjudul"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/numdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numdes"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toBottomOf="@id/greeting"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="5dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/sudah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/numdes"
+        app:layout_constraintTop_toBottomOf="@id/greeting"
+        android:text="X"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/slash"
+        app:layout_constraintLeft_toRightOf="@id/sudah"
+        app:layout_constraintTop_toBottomOf="@id/greeting"
+        android:text="/"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/belum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/slash"
+        app:layout_constraintTop_toBottomOf="@id/greeting"
+        android:text="Y"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toBottomOf="@id/numdes"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxxx"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toBottomOf="@id/numdes"
+        app:layout_constraintLeft_toRightOf="@id/humidity"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toBottomOf="@id/humidity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxxx"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toBottomOf="@id/tvHumidity"
+        app:layout_constraintLeft_toRightOf="@id/temperature"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
